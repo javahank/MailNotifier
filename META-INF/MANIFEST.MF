@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: Dennis
+Start-Class: timer.MailCheckTimer
+Spring-Boot-Classes: BOOT-INF/classes/
+Class-Path: simple-java-mail-4.1.2.jar slf4j-api-1.7.21.jar javax.mail
+ -1.5.5.jar activation-1.1.jar jsr305-3.0.1.jar sqlite-jdbc-3.15.1.jar
+  log4j-api-2.7.jar log4j-core-2.7.jar org.apache.commons.lang-2.6.jar
+  commons-lang-2.6.jar
+Spring-Boot-Lib: BOOT-INF/lib/
+Spring-Boot-Version: 1.4.0.RELEASE
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_112
+Main-Class: org.springframework.boot.loader.JarLauncher
+
